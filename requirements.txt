@@ -1,0 +1,31 @@
+# Personal CSKH Reporting Assistant
+# Compatible with Python 3.10, 3.11, 3.12+
+
+# GUI Framework
+PySide6>=6.6.0
+
+# Database & ORM
+SQLAlchemy>=2.0.25
+
+# Data Validation & Settings
+pydantic>=2.6.0
+pydantic-settings>=2.2.0
+
+# Discord Official Bot API
+discord.py>=2.3.2
+
+# HTTP & API Client
+httpx>=0.27.0
+
+# Google GenAI / Gemini API
+# Supports modern Google GenAI REST & SDK
+google-genai>=0.1.1; python_version>='3.10'
+
+# Security & Utilities
+python-dotenv>=1.0.1
+keyring>=24.3.0
+cryptography>=42.0.0
+
+# Testing
+pytest>=8.0.0
+pytest-asyncio>=0.23.5
